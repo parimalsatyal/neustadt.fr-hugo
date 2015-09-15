@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+	  <ul class="recent">
+    {{ range first 5 .Data.Pages }}
+    <li>
+      <span class="date">jan 02 '14 - article</span>
+      <span class="title"><a href="{{ .Permalink }}">{{ .Title}}</a></span>
+    </li>
+    {{ end }}
+	  </ul>
+
+{{ partial "footer.html" . }}

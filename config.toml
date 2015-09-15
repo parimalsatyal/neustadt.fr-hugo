@@ -1,3 +1,7 @@
-baseurl = "neustadt.fr"
+baseurl = "file:///Users/parimalsatyal/GitHub/neustadt.fr-hugo"
 languageCode = "en-us"
 title = "Neustadt.fr"
+theme="neustadt.fr"
+[params]
+  description = "Neustadt.fr is Parimal Satyal's collection of articles, reviews and music."
+  author = "Parimal Satyal"
